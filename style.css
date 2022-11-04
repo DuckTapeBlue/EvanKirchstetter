@@ -134,7 +134,7 @@ h4{
     letter-spacing: 3px;
 }
 
-button{
+.lnk .button{
     background-color: #C73872;
     color: white;
     text-decoration: none;
@@ -145,10 +145,14 @@ button{
     transition: .4s;
 }
 
-button:hover{
+.lnk .button:hover{
     background-color: transparent;
     border: 3px solid #C73872;
     cursor: pointer; 
+}
+.lnk a{
+    color: white;
+    text-decoration: none;
 }
 /* 3rd page*/
 .contact-me{
@@ -166,6 +170,8 @@ button:hover{
     font-size: 28px;
     font-weight: bold;
     margin-bottom: 27px;
+    text-align: center;
+    font-size: 20px;
 }
 
 .contact-me .button-two{
@@ -175,6 +181,7 @@ button:hover{
     padding: 15px 28px;
     border-radius: 30px;
     transition: .4s;
+    text-decoration: none;
 }
 
 .contact-me .button-two:hover{
