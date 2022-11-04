@@ -107,6 +107,9 @@ h4{
     width: 550px;
 }
 
+.about-text p{
+    color: white;
+}
 .main{
     width: 1130px;
     max-width: 95%;
